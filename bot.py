@@ -31,5 +31,5 @@ async def add_reaction(message):
         await message.channel.add_reaction('Hello!')
 
 load_dotenv()
-# TOKEN = os.environ.get("SLOTH_TOKEN")
-client.run("MTIzMjMxNjk5NTkzNzEwODAxOA.Glm6kL.sKEUlxJ40W8Z-po_dQKIMKagmn5eVeY1W2Mqjs")
+TOKEN = os.environ.get("SLOTH_TOKEN")
+client.run(TOKEN)
