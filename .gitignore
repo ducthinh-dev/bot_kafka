@@ -1,2 +1,4 @@
 .env
 bot_kafka.code-workspace
+test.ipynb
+__pycache__/
